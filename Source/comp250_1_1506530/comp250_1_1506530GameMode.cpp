@@ -13,3 +13,16 @@ Acomp250_1_1506530GameMode::Acomp250_1_1506530GameMode()
 		DefaultPawnClass = PlayerPawnBPClass.Class;
 	}
 }
+//void Acomp250_1_1506530GameMode::BeginPlay()
+//{
+//	Super::BeginPlay();
+//	// Add the UI to the players screen
+//	if (HUDWidgetClass != nullptr)
+//	{
+//		CurrentWidget = CreateWidget<UUserWidget>(GetWorld(), HUDWidgetClass);
+//		if (CurrentWidget != nullptr)
+//		{
+//			CurrentWidget->AddToViewport();
+//		}
+//	}
+//}
